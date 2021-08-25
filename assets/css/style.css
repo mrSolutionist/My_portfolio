@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 .hi {
-  background-image: url("/mee.jpg");
+  background-image: url("https://images.pexels.com/photos/4065876/pexels-photo-4065876.jpeg?cs=srgb&dl=pexels-cottonbro-4065876.jpg&fm=jpg");
   background-position: center center;
   background-size: cover;
 }
