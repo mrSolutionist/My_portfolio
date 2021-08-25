@@ -41,6 +41,24 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
   <!-- =======================================================
   * Template Name: Imperial - v5.3.0
   * Template URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-theme/
@@ -53,13 +71,13 @@
 
   <!-- ======= Hero Section ======= -->
   <section class="hi" id="hero">
-  
-    
-      <div class="hero-container">
-        <div class="wow fadeIn ">
-          <div class="hero-logo">
 
-            <h1>My PORTFOLIO</h1>
+
+    <div class="hero-container">
+      <div class="wow fadeIn ">
+        <div class="hero-logo">
+
+          <h1>My PORTFOLIO</h1>
 
           <h2>HI,<span class="typed"
               data-typed-items="I AM A SOFTWARE DEVELOPER, I Create Web Apps, I Make Mobile Apps , "></span></h2>
@@ -143,44 +161,61 @@
     <!-- ======= Services Section ======= -->
     <section id="services">
       <div class="container wow fadeInUp">
-        <div class="row">
-          <div class="col-md-12">
-            <h3 class="section-title">My Services</h3>
-            <div class="section-title-divider"></div>
-            <p class="section-description">Checkout my services.</p>
+
+
+        <div class="container">
+
+
+          <div class="p-5 mb-4 bg-light rounded-3">
+            <div class="container-fluid py-5">
+              <h1 class="display-5 fw-bold text-center">MY SERVICES</h1>
+
+            </div>
+          </div>
+
+          <div class="row ">
+            <div class="col-md-6">
+              <div class="h-100 p-5 text-white bg-dark rounded-3">
+                <h2>Web apps<br> With Django</h2>
+                <p style="text-align:justify">I make Web Apps with Django. Django is a
+                  high-level Python web framework that
+                  encourages rapid development
+                  and clean, pragmatic design. This helps me takes care of much of the hassle of web
+                  development, so i can focus on writing my app without needing to reinvent the wheel. </p>
+                <!-- <button class="btn btn-outline-light" type="button">Example button</button> -->
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="h-100 p-5 bg-light border rounded-3">
+                <h2>Mobile Apps <br> With Swift</h2>
+                <p style="text-align:justify">My mobile apps are built with Swift is a
+                  powerful
+                  and intuitive programming
+                  language for iOS, iPadOS,
+                  macOS, tvOS, and watchOS. Swift code is safe by design, yet also produces software that runs
+                  lightning-fast.</p>
+              </div>
+            </div>
+            <div class="col-md-6 pt-5">
+              <div class="h-100 p-5 bg-light border rounded-3">
+                <h2>IOT And Automation</h2>
+
+                <p style="text-align:justify">I make basic automation with embedded and IOT.
+                  The
+                  internet of things, or
+                  IoT, is a system of interrelated computing
+                  devices, mechanical and digital machines, objects, animals or people that are provided with unique
+                  identifiers (UIDs) and the ability to transfer data over a network without requiring human-to-human or
+                  human-to-computer interaction.This helps me build automation more easily and efficently.</p>
+              </div>
+            </div>
+
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-lg-4 col-md-6 service-item">
-            <div class="service-icon"><i class="bi bi-briefcase"></i></div>
-            <h4 class="service-title"><a href="">Web apps<br> With Django</a></h4>
-            <p class="service-description" style="text-align:justify">I make Web Apps with Django. Django is a
-              high-level Python web framework that
-              encourages rapid development
-              and clean, pragmatic design. This helps me takes care of much of the hassle of web
-              development, so i can focus on writing my app without needing to reinvent the wheel. </p>
-          </div>
-          <div class="col-lg-4 col-md-6 service-item">
-            <div class="service-icon"><i class="bi bi-card-checklist"></i></div>
-            <h4 class="service-title"><a href="">Mobile Apps <br> With Swift</a></h4>
-            <p class="service-description" style="text-align:justify">My mobile apps are built with Swift is a powerful
-              and intuitive programming
-              language for iOS, iPadOS,
-              macOS, tvOS, and watchOS. Swift code is safe by design, yet also produces software that runs
-              lightning-fast.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 service-item">
-            <div class="service-icon"><i class="bi bi-bar-chart"></i></div>
-            <h4 class="service-title"><a href="">IOT And Automation</a></h4>
-            <p class="service-description" style="text-align:justify">I make basic automation with embedded and IOT. The
-              internet of things, or
-              IoT, is a system of interrelated computing
-              devices, mechanical and digital machines, objects, animals or people that are provided with unique
-              identifiers (UIDs) and the ability to transfer data over a network without requiring human-to-human or
-              human-to-computer interaction.This helps me build automation more easily and efficently.</p>
-          </div>
-        </div>
+
+
+
       </div>
     </section><!-- End Services Section -->
 
@@ -190,13 +225,7 @@
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio">
       <div class="container wow fadeInUp">
-        <div class="row">
-          <div class="col-md-12">
-            <h3 class="section-title"></h3>
-            <div class="section-title-divider"></div>
-            <p class="section-description">Few of my projects that are part of my services</p>
-          </div>
-        </div>
+
 
         <div class="container-fluid sect_three " id="personal_projects">
           <div class="text-center font">
@@ -204,66 +233,71 @@
           </div>
           <div class="container">
             <div class="row">
-              <div class="col-12 col-md-6 col-lg-4 mt-5">
-                <div class="card border-0" style="width: 18rem;">
-                  <img class="card-img-top mx-auto icn" src="img/web.png" alt="Card image cap">
-                  <div class="card-body text-center ">
-                    <h5 class="card-title">STATIC WEBSITE</h5>
-                    <p class="card-text ">JMR SPICES ,STATIC WEBSITE</p>
-                    <p style="text-align:justify">My first project was to build a static website. The client was a spice
-                      company. Their requirment
-                      was to build a static page for showcasing their products.
+              <div class="container py-4">
 
-                      My static website does not require database design. Static websites are the most simple to create
-                      and are perfect for small scale sites.
-                      Maintaining a large number of static pages can become a time consuming and impractical hassle very
-                      quickly. If you require a website with hundreds of pages and a ton of content, a dynamic website
-                      may be for you.
-                    </p>
-                    <a href="https://github.com/mrSolutionist/JMR_SPICES" class="btn btn-primary">GIT LINK</a>
+                <div class="row align-items-md-stretch">
+                  <div class="col-md-6">
+                    <div class="h-100 p-5 text-white bg-dark rounded-3">
+                      <h2><img class="card-img-top mx-auto icn bg-light " src="img/web.png" alt="Card image cap">STATIC
+                        WEBSITE</h2>
+                      <p class="card-text  ">JMR SPICES ,STATIC WEBSITE</p>
+                      <p style="text-align:justify">My first project was to build a static website. The client was a
+                        spice
+                        company. Their requirment
+                        was to build a static page for showcasing their products.
+
+                        My static website does not require database design. Static websites are the most simple to
+                        create
+                        and are perfect for small scale sites.
+                        Maintaining a large number of static pages can become a time consuming and impractical hassle
+                        very
+                        quickly. If you require a website with hundreds of pages and a ton of content, a dynamic website
+                        may be for you.
+                      </p>
+                      <a href="https://github.com/mrSolutionist/JMR_SPICES" class="btn btn-primary">GIT LINK</a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="h-100 p-5 bg-light border rounded-3">
+                      <h2> <img class="card-img-top mx-auto icn " src="img/py.png" alt="Card image cap">STOCK API</h2>
+                      <p class="card-text">Stock market data fetching program with python</p>
+                      <p style="text-align:justify">This is an app made with python to predict stock market values.There
+                        are three conventional
+                        approaches for stock price prediction: technical analysis, traditional time series forecasting,
+                        and
+                        machine learning method.
+                        I ahve implemented few of the logic to accure whats needed.
+                        This app is still in Beta stage.
+                      </p>
+                      <a href="https://github.com/mrSolutionist/trading_app" class="btn btn-primary">GIT LINK</a>
+                    </div>
+                  </div>
+                  <div class="col-md-6 pt-5">
+
+                    <div class="h-100 p-5 bg-light border rounded-3">
+
+                      <h2><img class="card-img-top mx-auto icn" src="img/global.png" alt="Card image cap">DJANGO PROJECT
+                      </h2>
+
+                      <p class="card-text">Medifile project with admin and doctor login and registration</p>
+                      <p style="text-align:justify">This was a demo project .This project has admin login and patient
+                        registration.</p>
+                      <p style="text-align:justify">This project was in aim to provide data history of a patient and
+                        this
+                        will help patients to collect thier meidcal history.</p>
+                      <a href="https://github.com/mrSolutionist/GLOBAL-MEDIFILE" class="btn btn-primary">GIT
+                        LINK</a>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-12 col-md-4 mt-5">
-                <div class="card border-0" style="width: 18rem;">
-                  <img class="card-img-top mx-auto icn" src="img/py.png" alt="Card image cap">
-                  <div class="card-body text-center">
-                    <h5 class="card-title ">STOCK API</h5>
-                    <p class="card-text">Stock market data fetching program with python</p>
-                    <p style="text-align:justify">This is an app made with python to predict stock market values.There
-                      are three conventional
-                      approaches for stock price prediction: technical analysis, traditional time series forecasting,
-                      and
-                      machine learning method.
-                      I ahve implemented few of the logic to accure whats needed.
-                      This app is still in Beta stage.
-                    </p>
-                    <br>
-                    <a href="https://github.com/mrSolutionist/trading_app" class="btn btn-primary">GIT LINK</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-md-4 mt-5">
-                <div class="card border-0" style="width: 18rem;">
-                  <img class="card-img-top mx-auto icn" src="img/global.png" alt="Card image cap">
-                  <div class="card-body text-center">
-                    <h5 class="card-title">DJANGO PROJECT</h5>
-                    <p class="card-text">Medifile project with admin and doctor login and registration</p>
-                    <p style="text-align:justify">This was a demo project .This project has admin login and patient
-                      registration.</p>
-                    <p style="text-align:justify">This project was in aim to provide data history of a patient and this
-                      will help patients to collect thier meidcal history.</p>
-                    <a href="https://github.com/mrSolutionist/GLOBAL-MEDIFILE" class="btn btn-primary">GIT
-                      LINK</a>
-                  </div>
-                </div>
+
+
               </div>
 
             </div>
-          </div>
 
+          </div>
         </div>
-      </div>
 
 
 
